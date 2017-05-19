@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1495217178 source:c:\users\alumno-g\desktop\fgh\src\coche.cpp
+	"Coche.h"
+
+1495217540 c:\users\alumno-g\desktop\fgh\include\coche.h
+	"Vehiculo.h"
+	<string>
+
+1495217370 source:c:\users\alumno-g\desktop\fgh\main.cpp
+	<iostream>
+	"Vehiculo.h"
+	"Coche.h"
+	<string.h>
+
+1495216784 c:\users\alumno-g\desktop\fgh\include\vehiculo.h
+	<string>
+
+1495216864 source:c:\users\alumno-g\desktop\fgh\src\vehiculo.cpp
+	"Vehiculo.h"
+
