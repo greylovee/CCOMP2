@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1495743773 source:c:\users\alumno-g\desktop\polimorfismo\main.cpp
+	<iostream>
+	<cstring>
+
+1495743407 source:c:\users\alumno-g\desktop\polimorfismo\src\persona.cpp
+	"persona.h"
+
+1495743407 c:\users\alumno-g\desktop\polimorfismo\include\persona.h
+
