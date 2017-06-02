@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1496366799 source:c:\users\grettzel\documents\ipoo\datos\main.cpp
+	<iostream>
+	"Persona.h"
+	"Cumple.h"
+	"Conserge.h"
+	"Gerente.h"
+
+1496367429 c:\users\grettzel\documents\ipoo\datos\include\persona.h
+	"Cumple.h"
+	<string.h>
+
+1496366651 c:\users\grettzel\documents\ipoo\datos\include\cumple.h
+
+1496367352 c:\users\grettzel\documents\ipoo\datos\include\conserge.h
+	"Persona.h"
+
+1496367352 c:\users\grettzel\documents\ipoo\datos\include\gerente.h
+	"Persona.h"
+
