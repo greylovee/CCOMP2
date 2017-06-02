@@ -1,22 +1,21 @@
 #include "Persona.h"
 
+using namespace std;
+
 Persona::Persona()
 {
-    b=new Cumple();
+
     string nombre;
     int dni;
 }
-Persona::Persona(string n,int id)
-{
-    nombre=n;
-    dni=id;
-    return;
-}
+
 void Persona:: VerInfo()
 {
-    nombre=n;
-    dni=id;
-    cout<<"Nombre : "<<nombre<<"DNI: "<<dni<<endl;
+
+    cout<<" Nombre : "<<nombre<<" DNI: "<<dni<<endl;
+    cout<<"Cumple : "<<cumple.dia<<" - "<<cumple.mes<<" - "<<cumple.anho<<endl;
+    cout<<" Edad :  "<<cumple.edad<<endl;
+
 }
 
 Persona::~Persona()

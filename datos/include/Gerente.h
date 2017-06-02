@@ -6,7 +6,9 @@ class Gerente : public Persona
 {
     public:
         Gerente(string n, int id,int d,int m, int a, int aA,int e);
-        void VerInfo();
+        //void VerInfo();
+        void WhatIs();
+
 };
 
 #endif // GERENTE_H

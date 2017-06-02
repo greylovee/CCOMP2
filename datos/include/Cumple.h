@@ -1,5 +1,8 @@
 #ifndef CUMPLE_H
 #define CUMPLE_H
+#include <iostream>
+#include <string.h>
+using namespace std;
 
 
 class Cumple
@@ -12,8 +15,7 @@ class Cumple
        int edad;
        Cumple();
        Cumple(int d,int m , int a,int aA , int e);
-       void VerFecha();
-       void VerAnhos();
+       void VerEdad();
 
 };
 

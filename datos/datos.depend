@@ -18,3 +18,40 @@
 1496367352 c:\users\grettzel\documents\ipoo\datos\include\gerente.h
 	"Persona.h"
 
+1496426330 source:c:\users\alumno-g\downloads\ccomp2-master\datos\main.cpp
+	<iostream>
+	"Persona.h"
+	"Cumple.h"
+	"Conserge.h"
+	"Gerente.h"
+
+1496426531 c:\users\alumno-g\downloads\ccomp2-master\datos\include\persona.h
+	"Cumple.h"
+	<string>
+
+1496426242 c:\users\alumno-g\downloads\ccomp2-master\datos\include\cumple.h
+	<iostream>
+	<string.h>
+
+1496425605 c:\users\alumno-g\downloads\ccomp2-master\datos\include\conserge.h
+	"Persona.h"
+	<string.h>
+
+1496425605 c:\users\alumno-g\downloads\ccomp2-master\datos\include\gerente.h
+	"Persona.h"
+
+1496426531 source:c:\users\alumno-g\downloads\ccomp2-master\datos\src\conserge.cpp
+	"Conserge.h"
+	<string.h>
+	<iostream>
+
+1496426610 source:c:\users\alumno-g\downloads\ccomp2-master\datos\src\cumple.cpp
+	"Cumple.h"
+
+1496425975 source:c:\users\alumno-g\downloads\ccomp2-master\datos\src\gerente.cpp
+	"Gerente.h"
+	<string.h>
+
+1496426531 source:c:\users\alumno-g\downloads\ccomp2-master\datos\src\persona.cpp
+	"Persona.h"
+

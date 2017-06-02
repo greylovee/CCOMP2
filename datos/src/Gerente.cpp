@@ -4,13 +4,17 @@ using namespace std;
 
 Gerente::Gerente(string n, int id,int d,int m, int a, int aA,int e)
 {
-   b= new Cumple(d,m,a,aA,e);
-    cout<<b->dia<<"-"<<b->mes<<"-"<<b->anho<<endl;
+    nombre=n;
+    dni=id;
+    cumple.anho = a;
+    cumple.dia = d;
+    cumple.mes = m;
+    cumple.anhoA = aA;
+    cumple.edad=e;
+
 }
 
-void Gerente:: VerInfo()
+void Gerente :: WhatIs()
 {
-    string n;
-    int id;
-    cout<<"Nombre : "<<nombre<<"DNI: "<<dni<<endl;
+    cout<<"Gerente"<<endl;
 }
