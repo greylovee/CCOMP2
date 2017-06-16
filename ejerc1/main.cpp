@@ -19,9 +19,19 @@ template < class T>
  Stack<T> operator -(const Stack <T> &s1 ,const Stack <T> &s2)
  {
      Stack <T> result = s1;
-     for (unsigned i=0; i<s1.items.size();++i)
+     for (unsigned i=s1. items. size() - 1;i>0;--i)
      {
-         result.items.pop_back(s2.items[i]);
+        int cont =0;
+      for(unsigned j=s2. items. size() - 1;j>0;j--)
+       {
+       if(s1.items[i]==s2.items[j]
+          {
+           cont++;
+           }
+          if (cont==0)
+          {
+           result.items.push_back(s1.items[i]
+         
      }
 
      return result;
