@@ -31,11 +31,22 @@ template < class T>
      }
      return result;
  }
+template<class T>
+ostream& operator << (ostream &output, const Stack<T> &result)
+{
+    for(unsigned i=0;i<result.items.size();i++)
+    {
+        output <<result.items[i] << endl;
+    }
+    return output;
+}
+
 
  template < class T>
  class Stack {
     friend Stack <T> operator +<>( const Stack <T> &s1 , const Stack <T> &s2);
     friend Stack <T> operator -<>( const Stack <T> &s1 , const Stack <T> &s2);
+    friend ostream& operator << <> (ostream &output, const Stack<T> &result);
     vector <T> items ;
     public :
     bool empty () const {
@@ -56,19 +67,25 @@ template < class T>
     }
  };
 
+
+
+
+
 int main()
 {
     Stack <int > a, b;
     a. push (1) ;
     a. push (3) ;
+
     b. push (3) ;
     b. push (4) ;
+
     //Stack <int > c = a + b;
     Stack <int > e =a - b;
     //c.print();
-    e.print();
+    //e.print();
+    cout<<e;
 
 
 
 }
-
