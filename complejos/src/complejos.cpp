@@ -3,29 +3,30 @@
 using namespace std;
 complejos::complejos(int x,int y)
 {
-    R=x;
-    I=y;
+    r=x;
+    i=y;
 }
 
-void complejos::Recibe(int a,int b)
-   {
-   cout << "Introduzca la parte real: " << endl;
-   cin >> R;
-   cout << "Introduzca la parte compleja: " << endl;
-   cin >> I;
-   }
-void complejos::Suma( int a, int b, int c, int d)
+
+complejos complejos::Suma(complejos j)
 
    {
-  cout <<"La suma es: ("  << a + c<< " , " << b + d<<")" << endl;
+    complejos xs;
+    xs.r= r+j.r;
+    xs.i=i+j.r;
+    return x;
    }
 
-void complejos::Resta( int a, int b, int c, int d)
+ complejos complejos::Resta(complejos j )
 
   {
-  cout <<"La resta es: (" << a - c << " , "<< b - d<<")" << endl;
+    complejos xr;
+    xr.r= r-j.r;
+    xr.i=i-j.r;
+    return xr;
   }
-void complejos:: Multiplicacion(int a, int b, int c, int d)
+ complejos:: Multiplicacion(complejos j)
     {
-
+    complejos xm;
+    
     }
